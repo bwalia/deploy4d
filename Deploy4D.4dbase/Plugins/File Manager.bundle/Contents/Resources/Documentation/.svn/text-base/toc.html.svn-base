@@ -1,0 +1,104 @@
+<html xmlns:date="http://exslt.org/dates-and-times">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="./CSS/default.css">
+<title>File Manager</title>
+</head>
+<body>
+<h3>Commands</h3>
+<p>
+<a target="content" href="./content.html#command:1">Application Directory</a>
+</p>
+<dl>
+<dd>
+<a target="content" href="./content.html#command:1,1">PATH Get directory</a>
+</dd>
+</dl>
+<p>
+<a target="content" href="./content.html#command:2">File Manager</a>
+</p>
+<dl>
+<dd>
+<a target="content" href="./content.html#command:2,7">DIRECTORY LIST CONTENT</a>
+</dd>
+<dd>
+<a target="content" href="./content.html#command:2,8">DIRECTORY LIST SUBPATH</a>
+</dd>
+<dd>
+<a target="content" href="./content.html#command:2,6">ITEM Copy</a>
+</dd>
+<dd>
+<a target="content" href="./content.html#command:2,2">ITEM Duplicate</a>
+</dd>
+<dd>
+<a target="content" href="./content.html#command:2,5">ITEM Move</a>
+</dd>
+<dd>
+<a target="content" href="./content.html#command:2,3">ITEM Recycle</a>
+</dd>
+<dd>
+<a target="content" href="./content.html#command:2,4">ITEM Remove</a>
+</dd>
+<dd>
+<a target="content" href="./content.html#command:2,9">ITEM Test path</a>
+</dd>
+<dd>
+<a target="content" href="./content.html#command:2,10">PATH Get localized name</a>
+</dd>
+</dl>
+<h3>Constants</h3>
+<p>
+<a target="content" href="./content.html#constant:1">Application Directory</a>
+</p>
+<dl>
+<dd>
+<a target="content" href="./content.html#constant:1,2">Caches</a>
+</dd>
+<dd>
+<a target="content" href="./content.html#constant:1,1">Application Support</a>
+</dd>
+<dd>
+<a target="content" href="./content.html#constant:1,3">Library</a>
+</dd>
+</dl>
+<p>
+<a target="content" href="./content.html#constant:2">Application Directory Options</a>
+</p>
+<dl>
+<dd>
+<a target="content" href="./content.html#constant:2,2">Do Not Create Directory</a>
+</dd>
+<dd>
+<a target="content" href="./content.html#constant:2,1">Create Directory</a>
+</dd>
+</dl>
+<p>
+<a target="content" href="./content.html#constant:3">Path Format</a>
+</p>
+<dl>
+<dd>
+<a target="content" href="./content.html#constant:3,1">Path Format HFS</a>
+</dd>
+<dd>
+<a target="content" href="./content.html#constant:3,2">Path Format POSIX</a>
+</dd>
+<dd>
+<a target="content" href="./content.html#constant:3,3">Path Format URL</a>
+</dd>
+</dl>
+<p>
+<a target="content" href="./content.html#constant:4">Path Type</a>
+</p>
+<dl>
+<dd>
+<a target="content" href="./content.html#constant:4,2">File Exists</a>
+</dd>
+<dd>
+<a target="content" href="./content.html#constant:4,3">Directory Exists</a>
+</dd>
+<dd>
+<a target="content" href="./content.html#constant:4,1">Package Exists</a>
+</dd>
+</dl>
+</body>
+</html>
