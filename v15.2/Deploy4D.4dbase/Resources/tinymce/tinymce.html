@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TinyMCE</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script src="tinymce.min.js"></script>
+<script src="templates.js?112982698"></script>
+<script>
+var tiny_options=new Array();
+tiny_options['selector']= "textarea#mytextarea";
+tiny_options['theme']= "modern";
+tiny_options['skin']= "custom";
+tiny_options['plugins']= "advlist autolink link image lists charmap print preview hr anchor pagebreak searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking save table contextmenu directionality emoticons template paste textcolor";
+tiny_options['imagetools_toolbar']= "rotateleft rotateright | flipv fliph | editimage imageoptions";
+tiny_options['templates']= tinyMCETemplateList,
+tiny_options['setup'] = function(editor) {  editor.on('init', function(e) {  editor.execCommand('mceFullScreen'); }); editor.on('blur', function (e) {  getContentVal();  }); };
+tinymce.init(tiny_options);
+	
+    var textareaValStr="";
+    function getContentVal(){
+    	textareaValStr= tinymce.get('mytextarea').getContent();
+    	return textareaValStr;
+  	}
+  
+    function setContentVal(pContentTxt){
+tinyMCE.get('mytextarea').setContent(pContentTxt);
+  }
+
+  
+  function alertmsg(){
+   	var textStr=getContentVal();
+  	alert(textStr);
+  }
+ 
+</script>
+</head>
+<body>
+  <textarea id="mytextarea" style="width:100%;height:100%"></textarea> 
+  
+  	<input type="button" onclick="alertmsg()" value="PRINT">
+   <input type="button" onclick="window.print();" value="Window Print">
+</body>
+</html>
