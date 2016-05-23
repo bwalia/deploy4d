@@ -21,7 +21,11 @@ tinymce.init(tiny_options);
     	textareaValStr= tinymce.get('mytextarea').getContent();
     	return textareaValStr;
   	}
-  
+  	
+        function setContentVal(pContentTxt){
+tinyMCE.get('mytextarea').setContent(pContentTxt);
+  }
+
   function alertmsg(){
    	var textStr=getContentVal();
   	alert(textStr);
