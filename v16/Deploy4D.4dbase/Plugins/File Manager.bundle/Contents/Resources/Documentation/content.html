@@ -1,0 +1,419 @@
+<html xmlns:date="http://exslt.org/dates-and-times">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="./CSS/default.css">
+<title>File Manager</title>
+</head>
+<body>
+<h1>File Manager</h1>
+<p>
+<span class="title">Plugin Identifier: </span>10023</p>
+<p>
+<span class="title">Summary</span>
+</p>
+<ex4D:plugin-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for File Manager here -->
+<p>This plugin offers low level access to typical file system operations on the Mac platform.</p>
+</ex4D:plugin-description>
+<a name="command:1"></a>
+<h2>Application Directory</h2>
+<a name="command:1,1"></a>
+<h3>PATH Get directory</h3>
+<p>
+<code>path:=PATH Get directory (directory; create; type)</code>
+</p>
+<p>
+<code>directory (LONGINT)</code>
+</p>
+<ex4D:argument argument-id="1" label="directory" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (LONGINT) here-->
+<p>The kind of directory. 3 types are supported.</p>
+</ex4D:argument>
+<p>
+<code>create (LONGINT)</code>
+</p>
+<ex4D:argument argument-id="2" label="create" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $2 (LONGINT) here-->
+<p>Whether or not to create the path, including intermediate folders, if the path doesn't exist.</p>
+</ex4D:argument>
+<p>
+<code>type (LONGINT)</code>
+</p>
+<ex4D:argument argument-id="3" label="type" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $3 (LONGINT) here-->
+<p>The kind of path representation. 3 types are supported.</p>
+</ex4D:argument>
+<p>
+<code>path</code> (TEXT)<br>
+<ex4D:return-value label="path" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for return value (TEXT) here-->
+<p>The full path, in the requested format, to the specified directory.</p>
+</ex4D:return-value>
+</p>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for PATH Get directory here -->
+<p>This command returns the path to directories where the appliation can store custom data.</p>
+</ex4D:command-description>
+<a name="command:2"></a>
+<h2>File Manager</h2>
+<a name="command:2,7"></a>
+<h3>DIRECTORY LIST CONTENT</h3>
+<p>
+<code>DIRECTORY LIST CONTENT (folder; paths; type)</code>
+</p>
+<p>
+<code>folder (TEXT)</code>
+</p>
+<ex4D:argument argument-id="1" label="folder" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (TEXT) here-->
+<p>The path to the folder to examine.</p>
+</ex4D:argument>
+<p>
+<code>paths (ARRAY)</code>
+</p>
+<ex4D:argument argument-id="2" label="paths" type="Y" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $2 (ARRAY) here-->
+<p>The full paths of all items in a folder.</p>
+</ex4D:argument>
+<p>
+<code>type (LONGINT)</code>
+</p>
+<ex4D:argument argument-id="3" label="type" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $3 (LONGINT) here-->
+<p>The kind of path representation. 3 types are supported.</p>
+</ex4D:argument>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for DIRECTORY LIST CONTENT here -->
+<p>This command returns the full paths of all items in a folder, one level deep, in the requested format.</p>
+</ex4D:command-description>
+<a name="command:2,8"></a>
+<h3>DIRECTORY LIST SUBPATH</h3>
+<p>
+<code>DIRECTORY LIST SUBPATH (folder; paths; type)</code>
+</p>
+<p>
+<code>folder (TEXT)</code>
+</p>
+<ex4D:argument argument-id="1" label="folder" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (TEXT) here-->
+<p>The path to the folder to examine.</p>
+</ex4D:argument>
+<p>
+<code>paths (ARRAY)</code>
+</p>
+<ex4D:argument argument-id="2" label="paths" type="Y" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $2 (ARRAY) here-->
+<p>The full paths of all items in a folder, recursively.</p>
+</ex4D:argument>
+<p>
+<code>type (LONGINT)</code>
+</p>
+<ex4D:argument argument-id="3" label="type" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $3 (LONGINT) here-->
+<p>The kind of path representation. 3 types are supported.</p>
+</ex4D:argument>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for DIRECTORY LIST SUBPATH here -->
+<p>This command returns the full paths of all items in a folder, recursively, in the requested format.</p>
+</ex4D:command-description>
+<a name="command:2,6"></a>
+<h3>ITEM Copy</h3>
+<p>
+<code>success:=ITEM Copy (source; destination)</code>
+</p>
+<p>
+<code>source (TEXT)</code>
+</p>
+<ex4D:argument argument-id="1" label="source" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (TEXT) here-->
+<p>The path to the item to copy.</p>
+</ex4D:argument>
+<p>
+<code>destination (TEXT)</code>
+</p>
+<ex4D:argument argument-id="2" label="destination" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $2 (TEXT) here-->
+<p>The new path name of the item.</p>
+</ex4D:argument>
+<p>
+<code>success</code> (LONGINT)<br>
+<ex4D:return-value label="success" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for return value (LONGINT) here-->
+<p>Returns 1 if successful, otherwise 0.</p>
+</ex4D:return-value>
+</p>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for ITEM Copy here -->
+<p>This command copies an item to a new location.</p>
+</ex4D:command-description>
+<a name="command:2,2"></a>
+<h3>ITEM Duplicate</h3>
+<p>
+<code>success:=ITEM Duplicate (path)</code>
+</p>
+<p>
+<code>path (TEXT)</code>
+</p>
+<ex4D:argument argument-id="1" label="path" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (TEXT) here-->
+<p>The path to the item to duplicate.</p>
+</ex4D:argument>
+<p>
+<code>success</code> (LONGINT)<br>
+<ex4D:return-value label="success" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for return value (LONGINT) here-->
+<p>Returns 1 if successful, otherwise 0.</p>
+</ex4D:return-value>
+</p>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for ITEM Duplicate here -->
+<p>This command duplicates an item at its current location. A localized suffix or prefix is added automatically.</p>
+</ex4D:command-description>
+<a name="command:2,5"></a>
+<h3>ITEM Move</h3>
+<p>
+<code>success:=ITEM Move (source; destination)</code>
+</p>
+<p>
+<code>source (TEXT)</code>
+</p>
+<ex4D:argument argument-id="1" label="source" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (TEXT) here-->
+<p>The path to the item to move.</p>
+</ex4D:argument>
+<p>
+<code>destination (TEXT)</code>
+</p>
+<ex4D:argument argument-id="2" label="destination" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $2 (TEXT) here-->
+<p>The new path name of the item.</p>
+</ex4D:argument>
+<p>
+<code>success</code> (LONGINT)<br>
+<ex4D:return-value label="success" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for return value (LONGINT) here-->
+<p>Returns 1 if successful, otherwise 0.</p>
+</ex4D:return-value>
+</p>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for ITEM Move here -->
+<p>This command moves an item to a new location.</p>
+</ex4D:command-description>
+<a name="command:2,3"></a>
+<h3>ITEM Recycle</h3>
+<p>
+<code>success:=ITEM Recycle (path)</code>
+</p>
+<p>
+<code>path (TEXT)</code>
+</p>
+<ex4D:argument argument-id="1" label="path" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (TEXT) here-->
+<p>The path to the item to trash.</p>
+</ex4D:argument>
+<p>
+<code>success</code> (LONGINT)<br>
+<ex4D:return-value label="success" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for return value (LONGINT) here-->
+<p>Returns 1 if successful, otherwise 0.</p>
+</ex4D:return-value>
+</p>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for ITEM Recycle here -->
+<p>This command moves an item at to the trash.</p>
+</ex4D:command-description>
+<a name="command:2,4"></a>
+<h3>ITEM Remove</h3>
+<p>
+<code>success:=ITEM Remove (path)</code>
+</p>
+<p>
+<code>path (TEXT)</code>
+</p>
+<ex4D:argument argument-id="1" label="path" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (TEXT) here-->
+<p>The path to the item to destroy.</p>
+</ex4D:argument>
+<p>
+<code>success</code> (LONGINT)<br>
+<ex4D:return-value label="success" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for return value (LONGINT) here-->
+<p>Returns 1 if successful, otherwise 0.</p>
+</ex4D:return-value>
+</p>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for ITEM Remove here -->
+<p>This command destroys an item.</p>
+</ex4D:command-description>
+<a name="command:2,9"></a>
+<h3>ITEM Test path</h3>
+<p>
+<code>result:=ITEM Test path (path; type)</code>
+</p>
+<p>
+<code>path (TEXT)</code>
+</p>
+<ex4D:argument argument-id="1" label="path" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (TEXT) here-->
+<p>The path to the item whose name you want to examine.</p>
+</ex4D:argument>
+<p>
+<code>type (LONGINT)</code>
+</p>
+<ex4D:argument argument-id="2" label="type" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $2 (LONGINT) here-->
+<p>The item type to test against.</p>
+</ex4D:argument>
+<p>
+<code>result</code> (LONGINT)<br>
+<ex4D:return-value label="result" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for return value (LONGINT) here-->
+<p>Returns 1 if true, otherwise 0.</p>
+</ex4D:return-value>
+</p>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for ITEM Test path here -->
+<p>This command can be used to find out if a file system item is a file, folder or package. Note that a package is a folder too.</p>
+</ex4D:command-description>
+<a name="command:2,10"></a>
+<h3>PATH Get localized name</h3>
+<p>
+<code>name:=PATH Get localized name (path)</code>
+</p>
+<p>
+<code>path (TEXT)</code>
+</p>
+<ex4D:argument argument-id="1" label="path" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (TEXT) here-->
+<p>The path to the item whose name you want to examine.</p>
+</ex4D:argument>
+<p>
+<code>name</code> (TEXT)<br>
+<ex4D:return-value label="name" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for return value (TEXT) here-->
+<p>The localized display name of the specified path component. The name is not appropriate for file system operation.</p>
+</ex4D:return-value>
+</p>
+<p>
+<span class="title">Discussion</span>
+</p>
+<ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for PATH Get localized name here -->
+<p>This command returns the localized display name of a file system item (folder or file).</p>
+</ex4D:command-description>
+<a name="constant:1"></a>
+<h2>Application Directory</h2>
+<p>
+<code><a name="constant:1,2"></a>Caches (13)</code>
+</p>
+<ex4D:constant constant-id="2" name="Caches" type="L" value="13" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for Caches (13) here-->
+<p>The path ~/Library/Caches/{Application Name}. The name is read from the main application's property list.</p>
+</ex4D:constant>
+<p>
+<code><a name="constant:1,1"></a>Application Support (14)</code>
+</p>
+<ex4D:constant constant-id="1" name="Application Support" type="L" value="14" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for Application Support (14) here-->
+<p>The path ~/Library/Application Support/{Application Name}. The name is read from the main application's property list.</p>
+</ex4D:constant>
+<p>
+<code><a name="constant:1,3"></a>Library (5)</code>
+</p>
+<ex4D:constant constant-id="3" name="Library" type="L" value="5" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for Library (5) here-->
+<p>The path ~/Library/{Application Name}. The name is read from the main application's property list.</p>
+</ex4D:constant>
+<a name="constant:2"></a>
+<h2>Application Directory Options</h2>
+<p>
+<code><a name="constant:2,2"></a>Do Not Create Directory (0)</code>
+</p>
+<ex4D:constant constant-id="2" name="Do Not Create Directory" type="L" value="0" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for Do Not Create Directory (0) here-->
+<p>Construct the requested path, but do not create it.</p>
+</ex4D:constant>
+<p>
+<code><a name="constant:2,1"></a>Create Directory (1)</code>
+</p>
+<ex4D:constant constant-id="1" name="Create Directory" type="L" value="1" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for Create Directory (1) here-->
+<p>Construct the requested path, and create it if it does not exist, including intermedidate folders.</p>
+</ex4D:constant>
+<a name="constant:3"></a>
+<h2>Path Format</h2>
+<p>
+<code><a name="constant:3,1"></a>Path Format HFS (0)</code>
+</p>
+<ex4D:constant constant-id="1" name="Path Format HFS" type="L" value="0" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for Path Format HFS (0) here-->
+<p>The full path, : delimited and a : after the final component if it is a folder.</p>
+</ex4D:constant>
+<p>
+<code><a name="constant:3,2"></a>Path Format POSIX (1)</code>
+</p>
+<ex4D:constant constant-id="2" name="Path Format POSIX" type="L" value="1" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for Path Format POSIX (1) here-->
+<p>The full path, / delimited and no slash after the final component, whether it is a folder or not.</p>
+</ex4D:constant>
+<p>
+<code><a name="constant:3,3"></a>Path Format URL (2)</code>
+</p>
+<ex4D:constant constant-id="3" name="Path Format URL" type="L" value="2" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for Path Format URL (2) here-->
+<p>The full path URL, starting with file:// and ending with a / if the final component is a folder.</p>
+</ex4D:constant>
+<a name="constant:4"></a>
+<h2>Path Type</h2>
+<p>
+<code><a name="constant:4,2"></a>File Exists (0)</code>
+</p>
+<ex4D:constant constant-id="2" name="File Exists" type="L" value="0" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for File Exists (0) here-->
+<p>The item is a file.</p>
+</ex4D:constant>
+<p>
+<code><a name="constant:4,3"></a>Directory Exists (1)</code>
+</p>
+<ex4D:constant constant-id="3" name="Directory Exists" type="L" value="1" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for Directory Exists (1) here-->
+<p>The item is a directory.</p>
+</ex4D:constant>
+<p>
+<code><a name="constant:4,1"></a>Package Exists (2)</code>
+</p>
+<ex4D:constant constant-id="1" name="Package Exists" type="L" value="2" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for Package Exists (2) here-->
+<p>The item is a package.</p>
+</ex4D:constant>
+<p class="footer">
+<span class="title">Documentation Update: </span>2011-01-06T20:53:3409:00</p>
+</body>
+</html>

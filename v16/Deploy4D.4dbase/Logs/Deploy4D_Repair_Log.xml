@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<verifylog operation="Repair" name="Deploy4D" structure="Macintosh HD:Users:balinderwalia:deploy4d:v15.2:Deploy4D.4dbase:Deploy4D.4DB" data="" os="Mac OS X (10.11.4)">
+<start_timer time="2016-05-23T23:44:55+01:00"/>
+<step title="Opening the database in maintenance mode">
+</step>
+<step title="Repair">
+	<step title="Compacting auto sequence number definitions">
+	</step>
+	<step title="Loading data tables">
+		<step title="Compacting data table headers">
+		</step>
+	</step>
+	<step title="Compacting BLOBs in table Resources">
+	</step>
+	<step title="Compacting records in table Resources">
+		<step title="Checking list of deleted records in table Resources">
+		</step>
+	</step>
+	<step title="Compacting BLOBs in table [Table#0]">
+	</step>
+	<step title="Compacting records in table [Table#0]">
+	</step>
+	<step title="Initialization of the resources for the verify operation">
+	</step>
+	<step title="Check Database Methods">
+		<step title="On Startup">
+			<info>On Startup : 89 lines</info>
+		</step>
+	</step>
+	<step title="Check Trigger Methods">
+	</step>
+	<step title="Check Project Methods">
+		<step title="Deploy4D_ZIP_CALLBACK">
+			<info>Deploy4D_ZIP_CALLBACK : 56 lines</info>
+		</step>
+		<step title="Deploy4D_VersionShow">
+			<info>Deploy4D_VersionShow : 20 lines</info>
+		</step>
+		<step title="Deploy4D_VersionMajorSet">
+			<info>Deploy4D_VersionMajorSet : 23 lines</info>
+		</step>
+		<step title="Deploy4D_VersionMajorGet">
+			<info>Deploy4D_VersionMajorGet : 29 lines</info>
+		</step>
+		<step title="Deploy4D_VersionLocalUpdate">
+			<info>Deploy4D_VersionLocalUpdate : 71 lines</info>
+		</step>
+		<step title="Deploy4D_VersionLocalSet">
+			<info>Deploy4D_VersionLocalSet : 59 lines</info>
+		</step>
+		<step title="Deploy4D_VersionLocalGet_comp">
+			<info>Deploy4D_VersionLocalGet_comp : 14 lines</info>
+		</step>
+		<step title="_Deploy4D_VersionLocalGet_Publi">
+			<info>_Deploy4D_VersionLocalGet_Publi : 16 lines</info>
+		</step>
+		<step title="Deploy4D_VersionINIT">
+			<info>Deploy4D_VersionINIT : 20 lines</info>
+		</step>
+		<step title="Deploy4D_VersionAvailableGet">
+			<info>Deploy4D_VersionAvailableGet : 72 lines</info>
+		</step>
+		<step title="Deploy4D_VersionAsDateTime">
+			<info>Deploy4D_VersionAsDateTime : 21 lines</info>
+		</step>
+		<step title="Deploy4D_UserSettingsGetSet">
+			<info>Deploy4D_UserSettingsGetSet : 110 lines</info>
+		</step>
+		<step title="Deploy4D_UploadUpdates">
+			<info>Deploy4D_UploadUpdates : 175 lines</info>
+		</step>
+		<step title="Deploy4D_UpdateNotification">
+			<info>Deploy4D_UpdateNotification : 30 lines</info>
+		</step>
+		<step title="Deploy4D_UNZIP_CALLBACK">
+			<info>Deploy4D_UNZIP_CALLBACK : 43 lines</info>
+		</step>
+		<step title="Deploy4D_UnloadAllSels">
+			<info>Deploy4D_UnloadAllSels : 37 lines</info>
+		</step>
+		<step title="Deploy4D_ShowUserLog">
+			<info>Deploy4D_ShowUserLog : 35 lines</info>
+		</step>
+		<step title="Deploy4D_SettingsXMLPathGet">
+			<info>Deploy4D_SettingsXMLPathGet : 26 lines</info>
+		</step>
+		<step title="Deploy4D_SET_UPDATE_FOLDER">
+			<info>Deploy4D_SET_UPDATE_FOLDER : 36 lines</info>
+		</step>
+		<step title="Deploy4D_serverPingOK">
+			<info>Deploy4D_serverPingOK : 45 lines</info>
+		</step>
+		<step title="Deploy4D_SelfStart">
+			<info>Deploy4D_SelfStart : 70 lines</info>
+		</step>
+		<step title="Deploy4D_SaveDevSettings">
+			<info>Deploy4D_SaveDevSettings : 68 lines</info>
+		</step>
+		<step title="Deploy4D_RESTART_4D_SAFE">
+			<info>Deploy4D_RESTART_4D_SAFE : 84 lines</info>
+		</step>
+		<step title="Deploy4D_ReleaseUpdates">
+			<info>Deploy4D_ReleaseUpdates : 135 lines</info>
+		</step>
+		<step title="Deploy4D_Process_GetName">
+			<info>Deploy4D_Process_GetName : 28 lines</info>
+		</step>
+		<step title="Deploy4D_PrefsSetGet">
+			<info>Deploy4D_PrefsSetGet : 61 lines</info>
+		</step>
+		<step title="Deploy4D_onUpdateCallMethod">
+			<info>Deploy4D_onUpdateCallMethod : 13 lines</info>
+		</step>
+		<step title="Deploy4D_OnStartup">
+			<info>Deploy4D_OnStartup : 77 lines</info>
+		</step>
+		<step title="Deploy4D_OnErrCall">
+			<info>Deploy4D_OnErrCall : 62 lines</info>
+		</step>
+		<step title="Deploy4D_Notify">
+			<info>Deploy4D_Notify : 47 lines</info>
+		</step>
+		<step title="Deploy4D_NotificationOnClick">
+			<info>Deploy4D_NotificationOnClick : 27 lines</info>
+		</step>
+		<step title="Deploy4D_MessageGet">
+			<info>Deploy4D_MessageGet : 65 lines</info>
+		</step>
+		<step title="Deploy4D_Manager">
+			<info>Deploy4D_Manager : 86 lines</info>
+		</step>
+		<step title="Deploy4D_ManageFormEvents">
+			<info>Deploy4D_ManageFormEvents : 115 lines</info>
+		</step>
+		<step title="Deploy4D_isTester">
+			<info>Deploy4D_isTester : 15 lines</info>
+		</step>
+		<step title="Deploy4D_isPluginInstalled">
+			<info>Deploy4D_isPluginInstalled : 53 lines</info>
+		</step>
+		<step title="Deploy4D_isNewAvailable">
+			<info>Deploy4D_isNewAvailable : 35 lines</info>
+		</step>
+		<step title="Deploy4D_isMac">
+			<info>Deploy4D_isMac : 25 lines</info>
+		</step>
+		<step title="Deploy4D_isEnabled">
+			<info>Deploy4D_isEnabled : 3 lines</info>
+		</step>
+		<step title="Deploy4D_isDeveloper">
+			<info>Deploy4D_isDeveloper : 15 lines</info>
+		</step>
+		<step title="Deploy4D_INSTALLNOW">
+			<info>Deploy4D_INSTALLNOW : 127 lines</info>
+		</step>
+		<step title="Deploy4D_InitINSTALL">
+			<info>Deploy4D_InitINSTALL : 22 lines</info>
+		</step>
+		<step title="Deploy4D_Init">
+			<info>Deploy4D_Init : 178 lines</info>
+		</step>
+		<step title="Deploy4D_GetServerUserXML">
+			<info>Deploy4D_GetServerUserXML : 179 lines</info>
+		</step>
+		<step title="Deploy4D_GetDirectory">
+			<info>Deploy4D_GetDirectory : 42 lines</info>
+		</step>
+		<step title="Deploy4D_FTPServer">
+			<info>Deploy4D_FTPServer : 36 lines</info>
+		</step>
+		<step title="Deploy4D_FileExtGet">
+			<info>Deploy4D_FileExtGet : 37 lines</info>
+		</step>
+		<step title="Deploy4D_EMPTY_FOLDER">
+			<info>Deploy4D_EMPTY_FOLDER : 35 lines</info>
+		</step>
+		<step title="Deploy4D_EmbedSettingsInApp">
+			<info>Deploy4D_EmbedSettingsInApp : 27 lines</info>
+		</step>
+		<step title="Deploy4D_DownloadNow">
+			<info>Deploy4D_DownloadNow : 102 lines</info>
+		</step>
+		<step title="Deploy4D_DevSettingsGetSet">
+			<info>Deploy4D_DevSettingsGetSet : 111 lines</info>
+		</step>
+		<step title="Deploy4D_Developer">
+			<info>Deploy4D_Developer : 37 lines</info>
+		</step>
+		<step title="Deploy4D_DELETE_FOLDER">
+			<info>Deploy4D_DELETE_FOLDER : 59 lines</info>
+		</step>
+		<step title="Deploy4D_DataFileDirectory">
+			<info>Deploy4D_DataFileDirectory : 27 lines</info>
+		</step>
+		<step title="Deploy4D_DAEMONProcExit">
+			<info>Deploy4D_DAEMONProcExit : 28 lines</info>
+		</step>
+		<step title="Deploy4D_DAEMONProc">
+			<info>Deploy4D_DAEMONProc : 131 lines</info>
+		</step>
+		<step title="Deploy4D_CreateSettingsXML">
+			<info>Deploy4D_CreateSettingsXML : 22 lines</info>
+		</step>
+		<step title="Deploy4D_CompileBuildApp">
+			<info>Deploy4D_CompileBuildApp : 26 lines</info>
+		</step>
+		<step title="Deploy4D_CleanUp">
+			<info>Deploy4D_CleanUp : 36 lines</info>
+		</step>
+		<step title="Deploy4D_BuildProjectXML">
+			<info>Deploy4D_BuildProjectXML : 19 lines</info>
+		</step>
+		<step title="Deploy4D_BuildAppName">
+			<info>Deploy4D_BuildAppName : 30 lines</info>
+		</step>
+		<step title="Deploy4D_AppVersionToNumStr">
+			<info>Deploy4D_AppVersionToNumStr : 50 lines</info>
+		</step>
+		<step title="Compiler_Variables_Inter">
+			<info>Compiler_Variables_Inter : 95 lines</info>
+		</step>
+		<step title="Compiler_Variables">
+			<info>Compiler_Variables : 76 lines</info>
+		</step>
+		<step title="Compiler_Methods">
+			<info>Compiler_Methods : 251 lines</info>
+		</step>
+		<step title="Compiler_Arrays">
+			<info>Compiler_Arrays : 14 lines</info>
+		</step>
+		<step title="_Test">
+			<info>_Test : 28 lines</info>
+		</step>
+		<step title="_000_ReadMe_First">
+			<info>_000_ReadMe_First : 96 lines</info>
+		</step>
+		<step title="_000_On_Startup">
+			<info>_000_On_Startup : 45 lines</info>
+		</step>
+		<step title="_000_KeyCommandsUsed">
+			<info>_000_KeyCommandsUsed : 41 lines</info>
+		</step>
+		<step title="_000_Developer">
+			<info>_000_Developer : 13 lines</info>
+		</step>
+		<step title="Deploy4D_LoadWYSIWYGEditor">
+			<info>Deploy4D_LoadWYSIWYGEditor : 32 lines</info>
+		</step>
+		<step title="Deploy4D_structureDir">
+			<info>Deploy4D_structureDir : 43 lines</info>
+		</step>
+		<step title="Deploy4D_ReleaseNotesPreview">
+			<info>Deploy4D_ReleaseNotesPreview : 142 lines</info>
+		</step>
+		<step title="Deploy4D_ShowReleaseNotes">
+			<info>Deploy4D_ShowReleaseNotes : 35 lines</info>
+		</step>
+		<step title="_000_License">
+			<info>_000_License : 27 lines</info>
+		</step>
+		<step title="Deploy4D_ReleaseNotesTemplates">
+			<info>Deploy4D_ReleaseNotesTemplates : 146 lines</info>
+		</step>
+		<step title="Deploy4D_AppFriendlyNameGet">
+			<info>Deploy4D_AppFriendlyNameGet : 15 lines</info>
+		</step>
+		<step title="Deploy4D_FileNameGet">
+			<info>Deploy4D_FileNameGet : 45 lines</info>
+		</step>
+		<step title="Deploy4D_ProgressBarShow">
+			<info>Deploy4D_ProgressBarShow : 48 lines</info>
+		</step>
+		<step title="Deploy4D_ProgressBarCall">
+			<info>Deploy4D_ProgressBarCall : 9 lines</info>
+		</step>
+		<step title="Deploy4D_ProgressBarNew">
+			<info>Deploy4D_ProgressBarNew : 18 lines</info>
+		</step>
+		<step title="Deploy4D_ProgressBar">
+			<info>Deploy4D_ProgressBar : 29 lines</info>
+		</step>
+		<step title="Deploy4D_ProgressBarSet">
+			<info>Deploy4D_ProgressBarSet : 23 lines</info>
+		</step>
+		<step title="Deploy4D_ProgressBarStop">
+			<info>Deploy4D_ProgressBarStop : 8 lines</info>
+		</step>
+		<step title="_Test2">
+			<info>_Test2 : 18 lines</info>
+		</step>
+		<step title="Deploy4D_ReleaseNotesURL">
+			<info>Deploy4D_ReleaseNotesURL : 44 lines</info>
+		</step>
+		<step title="Deploy4D_ShowSpinningWheel">
+			<info>Deploy4D_ShowSpinningWheel : 44 lines</info>
+		</step>
+		<step title="_Test3">
+			<info>_Test3 : 1 lines</info>
+		</step>
+		<info>89 project methods</info>
+	</step>
+	<step title="Check Project Forms">
+		<step title="Deploy4D_UpdateLog">
+			<step title="Deploy4D_UpdateLog">
+				<info>Deploy4D_UpdateLog : 19 lines</info>
+			</step>
+			<step title="Deploy4D_UpdateLog.Page1.Button3 (Button)">
+				<info>Deploy4D_UpdateLog.Page1.Button3 (Button) : 5 lines</info>
+			</step>
+			<step title="Deploy4D_UpdateLog.Page1.Button1 (Button)">
+				<info>Deploy4D_UpdateLog.Page1.Button1 (Button) : 8 lines</info>
+			</step>
+		</step>
+		<step title="Deploy4D_Manager">
+			<step title="Deploy4D_Manager">
+				<info>Deploy4D_Manager : 16 lines</info>
+			</step>
+			<step title="Deploy4D_Manager.Page0.Button (Button)">
+				<info>Deploy4D_Manager.Page0.Button (Button) : 10 lines</info>
+			</step>
+			<step title="Deploy4D_Manager.Page0.oAvailabledownload_install (vdownload_install)">
+				<info>Deploy4D_Manager.Page0.oAvailabledownload_install (vdownload_install) : 60 lines</info>
+			</step>
+			<step title="Deploy4D_Manager.Page0.ocbAutoUpdateNotifyMe (nAUC_NotifyMeFlag)">
+				<info>Deploy4D_Manager.Page0.ocbAutoUpdateNotifyMe (nAUC_NotifyMeFlag) : 11 lines</info>
+			</step>
+		</step>
+		<step title="Deploy4D_FTP_Server">
+			<step title="Deploy4D_FTP_Server">
+				<info>Deploy4D_FTP_Server : 7 lines</info>
+			</step>
+			<step title="Deploy4D_FTP_Server.Page1.Button (Button)">
+				<info>Deploy4D_FTP_Server.Page1.Button (Button) : 3 lines</info>
+			</step>
+			<step title="Deploy4D_FTP_Server.Page1.Button1 (Button)">
+				<info>Deploy4D_FTP_Server.Page1.Button1 (Button) : 17 lines</info>
+			</step>
+		</step>
+		<step title="Deploy4D_Developer">
+			<step title="Deploy4D_Developer">
+				<info>Deploy4D_Developer : 86 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page0.Button6 (Button)">
+				<info>Deploy4D_Developer.Page0.Button6 (Button) : 12 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page0.Variable13 (&lt;&gt;AutoUpdateServerRootPathStr)">
+				<info>Deploy4D_Developer.Page0.Variable13 (&lt;&gt;AutoUpdateServerRootPathStr) : 6 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page0.oAutoUpdateTabsStrArr (vAutoUpdateTabsStrArr)">
+				<info>Deploy4D_Developer.Page0.oAutoUpdateTabsStrArr (vAutoUpdateTabsStrArr) : 67 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page0.obDeploy4D_DevSaveSettings (bDeploy4D_DevSaveSettings)">
+				<info>Deploy4D_Developer.Page0.obDeploy4D_DevSaveSettings (bDeploy4D_DevSaveSettings) : 5 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page0.obDeploy4D_Release (bDeploy4D_Release)">
+				<info>Deploy4D_Developer.Page0.obDeploy4D_Release (bDeploy4D_Release) : 48 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page0.obDeploy4D_FTPServer (bDeploy4D_FTPServer)">
+				<info>Deploy4D_Developer.Page0.obDeploy4D_FTPServer (bDeploy4D_FTPServer) : 5 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page1.Button7 (Button)">
+				<info>Deploy4D_Developer.Page1.Button7 (Button) : 5 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page1.Variable10 (&lt;&gt;AutoUpdateBuildSUWinPathStr)">
+				<info>Deploy4D_Developer.Page1.Variable10 (&lt;&gt;AutoUpdateBuildSUWinPathStr) : 0 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page1.Variable11 (&lt;&gt;AutoUpdateBuildSerWinPathStr)">
+				<info>Deploy4D_Developer.Page1.Variable11 (&lt;&gt;AutoUpdateBuildSerWinPathStr) : 0 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page1.Button8 (Button)">
+				<info>Deploy4D_Developer.Page1.Button8 (Button) : 5 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page1.Button9 (Button)">
+				<info>Deploy4D_Developer.Page1.Button9 (Button) : 5 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page1.Button10 (Button)">
+				<info>Deploy4D_Developer.Page1.Button10 (Button) : 15 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page1.Check Box3 (bShowDevOptionsOnStartup)">
+				<info>Deploy4D_Developer.Page1.Check Box3 (bShowDevOptionsOnStartup) : 5 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page1.Button4 (Button4)">
+				<info>Deploy4D_Developer.Page1.Button4 (Button4) : 5 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page1.Button11 (Button4)">
+				<info>Deploy4D_Developer.Page1.Button11 (Button4) : 5 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page1.Button12 (Button4)">
+				<info>Deploy4D_Developer.Page1.Button12 (Button4) : 5 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page1.Button13 (Button4)">
+				<info>Deploy4D_Developer.Page1.Button13 (Button4) : 15 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page1.Button14 (Button4)">
+				<info>Deploy4D_Developer.Page1.Button14 (Button4) : 15 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page1.Button15 (Button4)">
+				<info>Deploy4D_Developer.Page1.Button15 (Button4) : 15 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page1.Button16 (Button4)">
+				<info>Deploy4D_Developer.Page1.Button16 (Button4) : 15 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page1.Button17 (Button4)">
+				<info>Deploy4D_Developer.Page1.Button17 (Button4) : 15 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page2.Check Box9 (bSetThisInstanceAsDev)">
+				<info>Deploy4D_Developer.Page2.Check Box9 (bSetThisInstanceAsDev) : 1 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page2.oAUC_ReminderUsersStrArr (vAUC_ReminderUsersStrArr)">
+				<info>Deploy4D_Developer.Page2.oAUC_ReminderUsersStrArr (vAUC_ReminderUsersStrArr) : 0 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page2.Variable7 (&lt;&gt;AutoUpdateVersionMajorNum)">
+				<info>Deploy4D_Developer.Page2.Variable7 (&lt;&gt;AutoUpdateVersionMajorNum) : 12 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page2.obMajorVersionAutoSet (bMajorVersionAutoSet)">
+				<info>Deploy4D_Developer.Page2.obMajorVersionAutoSet (bMajorVersionAutoSet) : 7 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page2.Check Box12 (bReleaseUpdatesWithChecksum)">
+				<info>Deploy4D_Developer.Page2.Check Box12 (bReleaseUpdatesWithChecksum) : 67 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page2.oAUC_CheckSumTypeStrArr (vAUC_CheckSumTypeStrArr)">
+				<info>Deploy4D_Developer.Page2.oAUC_CheckSumTypeStrArr (vAUC_CheckSumTypeStrArr) : 48 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page2.Button3 (Button)">
+				<info>Deploy4D_Developer.Page2.Button3 (Button) : 7 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page2.obDoNotIncrementVersionOnStart (bDoNotIncrementVersionOnStart)">
+				<info>Deploy4D_Developer.Page2.obDoNotIncrementVersionOnStart (bDoNotIncrementVersionOnStart) : 7 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page2.obEnableEndUserErrorsNum (bEnableEndUserErrorsNum)">
+				<info>Deploy4D_Developer.Page2.obEnableEndUserErrorsNum (bEnableEndUserErrorsNum) : 7 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page4.Invisible Button1 (Invisible Button1)">
+				<info>Deploy4D_Developer.Page4.Invisible Button1 (Invisible Button1) : 5 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page5.oDeploy4D_WebArea">
+				<info>Deploy4D_Developer.Page5.oDeploy4D_WebArea : 0 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page5.obDeploy4D_ReleaseNotes (bDeploy4D_ReleaseNotes)">
+				<info>Deploy4D_Developer.Page5.obDeploy4D_ReleaseNotes (bDeploy4D_ReleaseNotes) : 6 lines</info>
+			</step>
+			<step title="Deploy4D_Developer.Page5.Button1 (Button)">
+				<info>Deploy4D_Developer.Page5.Button1 (Button) : 5 lines</info>
+			</step>
+		</step>
+		<step title="Deploy4D_ReleaseNotesView">
+			<step title="Deploy4D_ReleaseNotesView">
+				<info>Deploy4D_ReleaseNotesView : 30 lines</info>
+			</step>
+			<step title="Deploy4D_ReleaseNotesView.Page1.Button3 (Button)">
+				<info>Deploy4D_ReleaseNotesView.Page1.Button3 (Button) : 5 lines</info>
+			</step>
+			<step title="Deploy4D_ReleaseNotesView.Page1.obShowOnStartup (vbShowOnStartup)">
+				<info>Deploy4D_ReleaseNotesView.Page1.obShowOnStartup (vbShowOnStartup) : 8 lines</info>
+			</step>
+		</step>
+		<step title="Deploy4D_ProgressBar">
+			<step title="Deploy4D_ProgressBar">
+				<info>Deploy4D_ProgressBar : 50 lines</info>
+			</step>
+			<step title="Deploy4D_ProgressBar.Page1.obCancel (bCancel)">
+				<info>Deploy4D_ProgressBar.Page1.obCancel (bCancel) : 7 lines</info>
+			</step>
+		</step>
+		<step title="Deploy4D_ManagerExtra">
+			<step title="Deploy4D_ManagerExtra">
+				<info>Deploy4D_ManagerExtra : 23 lines</info>
+			</step>
+			<step title="Deploy4D_ManagerExtra.Page0.Button (Button)">
+				<info>Deploy4D_ManagerExtra.Page0.Button (Button) : 10 lines</info>
+			</step>
+			<step title="Deploy4D_ManagerExtra.Page0.oAvailabledownload_install (vdownload_install)">
+				<info>Deploy4D_ManagerExtra.Page0.oAvailabledownload_install (vdownload_install) : 60 lines</info>
+			</step>
+			<step title="Deploy4D_ManagerExtra.Page0.ocbAutoUpdateNotifyMe (nAUC_NotifyMeFlag)">
+				<info>Deploy4D_ManagerExtra.Page0.ocbAutoUpdateNotifyMe (nAUC_NotifyMeFlag) : 11 lines</info>
+			</step>
+			<step title="Deploy4D_ManagerExtra.Page1.oDeploy4D_ReleaseNotesWA">
+				<info>Deploy4D_ManagerExtra.Page1.oDeploy4D_ReleaseNotesWA : 0 lines</info>
+			</step>
+		</step>
+		<info>7 project forms</info>
+	</step>
+	<step title="Check Table Forms">
+		<info>0 table forms</info>
+	</step>
+	<step title="Check Orphan Forms">
+	</step>
+	<step title="Check User and Group information">
+	</step>
+	<step title="Check help tips">
+	</step>
+	<step title="Check the folders of the Explorer">
+		<step title="Trash">
+		</step>
+	</step>
+	<step title="Check menu bars and menus">
+	</step>
+	<step title="Check Lists">
+	</step>
+	<step title="Check Orphan Methods">
+	</step>
+	<step title="Move original">
+<move from="Macintosh HD:Users:balinderwalia:deploy4d:v15.2:Deploy4D.4dbase:Deploy4D.4DB" to="Macintosh HD:Users:balinderwalia:deploy4d:v15.2:Deploy4D.4dbase:Replaced Files (Repairing) 2016-05-23 23-44-55:Deploy4D.4DB">
+</move>	</step>
+	<step title="Move the new file to the original location">
+<move from="Macintosh HD:Users:balinderwalia:deploy4d:v15.2:Deploy4D.4dbase:Replaced Files (Repairing) 2016-05-23 23-44-55:_Deploy4D_compacted.4DB" to="Macintosh HD:Users:balinderwalia:deploy4d:v15.2:Deploy4D.4dbase:Deploy4D.4DB">
+</move>	</step>
+	<step title="Move original index">
+<move from="Macintosh HD:Users:balinderwalia:deploy4d:v15.2:Deploy4D.4dbase:Deploy4D.4DIndy" to="Macintosh HD:Users:balinderwalia:deploy4d:v15.2:Deploy4D.4dbase:Replaced Files (Repairing) 2016-05-23 23-44-55:Deploy4D.4DIndy">
+</move>	</step>
+	<step title="Move the new index file to the original location">
+<move from="Macintosh HD:Users:balinderwalia:deploy4d:v15.2:Deploy4D.4dbase:Replaced Files (Repairing) 2016-05-23 23-44-55:_Deploy4D_compacted.4DIndy" to="Macintosh HD:Users:balinderwalia:deploy4d:v15.2:Deploy4D.4dbase:Deploy4D.4DIndy">
+</move>	</step>
+</step>
+<stop_timer time="2016-05-23T23:44:56+01:00" success="true" user_canceled="false"/>
+</verifylog>
